@@ -10,16 +10,17 @@
     <h1>Örnek 4 - Tarih İşlemleri</h1>
     <hr>
     <?php
-    // ====================DATE FONKSİYONLARI NEDİR==================== //
+    // DATE FONKSİYONLARI NEDİR //
     // date_default_timezone_set("Europe/Istanbul"); -> tarihi istanbul a göre ayarlama eğer bu kod yazılmaz ise tarih londra' ya göre çalışır.
     // date("d-m-y h:i:s"); -> Gün-Ay-Yıl Saat:Dakika:Saniye şeklinde tarih döndürür(24-12-2021 11:59:30).
 
-    // -------------- Date -------------- //
+    // -------------- Date Konu Anlatımı -------------- //
     echo "<h3>Date</h3>";
     date_default_timezone_set("Europe/Istanbul");
     echo "Tarih: ".date("d-m-y h:i:s");
     ?>
 
+    <!--  ============================ ÖRNEK SORU ============================ -->
     <h2>Örnek Soru</h2>
     <p>Tarihi, Güne ve Saat e göre bölen fonksiyonu yazınız.</p>
     <!-- Not: Fonksiyon yazmak için örnek_5.php ye bakınız. -->
