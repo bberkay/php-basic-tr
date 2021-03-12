@@ -19,7 +19,7 @@
     // basıldıktan sonra gideceği isim veya eşiti.
     ?>
     
-    <!--  ============================ HTML ============================ -->
+    <!--  ============================ HTML - FRONTEND ============================ -->
     <form action="ornek_1.php" method = "GET">
         <input type="textbox" name = "isim" placeholder = "İsim Giriniz...">
         <br> <!-- br -> boşluk bırak -->
@@ -33,7 +33,7 @@
         <input type="submit" value = "Seç" name = "butona_tiklandi"> 
     </form>
 
-    <!--  ============================ PHP ============================ -->
+    <!--  ============================ PHP - BACKEND ============================ -->
     <?php
     if(isset($_GET['butona_tiklandi'])){ // URL kısmına 'butona_tiklandi' geldi ise
         ?>
