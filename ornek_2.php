@@ -10,7 +10,7 @@
     <h1>Örnek 2 - Select, Option Örneği</h1>
     <hr>
     <?php
-    // ====================SELECT OPTION FORM ÖRNEĞİ==================== //
+    // ====================SELECT OPTION KONU ANLATIMI==================== //
     // $ogrenciler adında bir dizi oluşturuyoruz ve içine bazı değerler ekliyoruz.
     echo "<select>";
         for($i = 1;$i<=10;$i++){ // 1 den 10 a kadar olan sayıları option a yazdır.
@@ -18,13 +18,15 @@
         }
     echo "</select>";
     ?>
-
+    
+    <!--  ============================ ÖRNEK SORU ============================ -->
     <h2>Örnek Soru</h2>
     <p></p>
     <?php
     $ogrenciler = array("Eda SEVİM","Özgür YILMAZ","Bilge GÜNEL","Nur YERLİ","Caner TAŞ");
     ?>
-
+    
+    <!--  ============================ HTML - FRONTEND ============================ -->
     <form action="ornek_2.php" method = "GET">
         <select name="veri">
             <?php 
@@ -39,8 +41,8 @@
         <input type="submit" value = "Seç" name = "butona_tiklandi"> 
     </form>
 
+    <!--  ============================ PHP - BACKEND ============================ -->   
     <?php
-
     if(isset($_GET['butona_tiklandi'])){
         ?><p style = "color:green">SEÇİM BAŞARI İLE GELDİ : <?php echo $_GET['veri']; ?></p> <!-- GET metodu ile gelen 'veri' adlı select yapısının içinden seçilen option ı yazdır. -->
     <?php } ?> 
