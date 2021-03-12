@@ -25,7 +25,8 @@
             // php etiketi açıyoruz daha sonradan normal php de yaptığımız gibi echo komutu ile istediğimiz yazıyı yazıp php etiketini kapatıyoruz.
         ?>
     </p>
-
+    
+    <!--  ============================ ÖRNEK SORU ============================ -->
     <h2>Örnek Soru</h2>
     <!-- HTML ve PHP etiketleri ile table yapımı -->
     <table border = "1">
