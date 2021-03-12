@@ -10,7 +10,7 @@
     <h1>Örnek 1 - Basit Form Örneği</h1>
     <hr>
     <?php
-    // ====================FORM NEDİR==================== //
+    // FORM NEDİR //
     // GET -> GET methodun da form ile gönderilen bilgiler URL kısmında gözükür.
     // POST -> POST methodun da form ile gönderilen bilgiler URL kısmında gözükmez. Post, Get e göre daha güvenlidir.
     // action -> formun gönder butonuna basıldıktan sonra nereye gideceği.
