@@ -18,7 +18,8 @@
     // name -> input,select,textarea gibi form elemanlarının içindeki verilerin formun gönderi butonuna
     // basıldıktan sonra gideceği isim veya eşiti.
     ?>
-
+    
+    <!--  ============================ HTML ============================ -->
     <form action="ornek_1.php" method = "GET">
         <input type="textbox" name = "isim" placeholder = "İsim Giriniz...">
         <br> <!-- br -> boşluk bırak -->
@@ -32,8 +33,8 @@
         <input type="submit" value = "Seç" name = "butona_tiklandi"> 
     </form>
 
+    <!--  ============================ PHP ============================ -->
     <?php
-
     if(isset($_GET['butona_tiklandi'])){ // URL kısmına 'butona_tiklandi' geldi ise
         ?>
         <h3>GET İLE GELEN BİLGİLER</h3> <!-- POST ile yapmak istersek sayfadaki tüm get leri post olarak değiştirebiliriz. -->
