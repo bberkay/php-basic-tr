@@ -10,7 +10,7 @@
     <h1>Örnek 5 - Fonksiyon Örnekleri</h1>
     <hr>
     <?php
-    // ====================FONKSİYON NEDİR==================== //
+    // FONKSİYON NEDİR //
     // function fonksiyon_adi(){} -> function yazdıktan sonra fonksiyonun adını yazarız.
     // function fonksiyon_adi($parametre){} -> eğer fonksiyona dışarıdan bir parametre göndermek istiyorsak parantez içine gelecek parametrenin
     // fonksiyona geldikten sonra kullanılacak ismini yazarız.
@@ -35,9 +35,8 @@
     $sonuc = toplama(4,8);
     echo "Toplam: ".$sonuc;
 
-
-    echo "<h4>Birden Fazla Değer Döndüren Fonksiyonlar</h4>";
     // ---------- Birden Fazla Değer Döndüren Fonksiyon ----------
+    echo "<h4>Birden Fazla Değer Döndüren Fonksiyonlar</h4>";
     function toplama_cikarma($sayi1,$sayi2){
         $toplam = $sayi1 + $sayi2;
         $fark = $sayi1 - $sayi2;
@@ -57,6 +56,7 @@
     
     ?>
 
+    <!--  ============================ ÖRNEK SORU ============================ -->
     <h2>Örnek Soru</h2>
     <p>Girilen Sayının faktoriyelini alan recursive fonksiyonu yapınız.</p>
     <?php
