@@ -42,13 +42,13 @@
     <h2>Örnek Soru</h2>
     <p>Verilen cümleyi veya paragrafı kelimelere bölen fonksiyon</p>
     <?php
-    function kelime_ayrac($cumle){ // keliem_ayrac adında bir fonksiyon oluşturuyoruz ve içine bir parametre($cumle) yazıyoruz bu fonksiyona gelen parametreler $cumle ye eşit oluyor.
+    function kelime_ayrac($cumle){ /
         $cumle = explode(" ",$cumle); // parametre olarak gelen $cumle değişkenini boşluklara göre parçalayıp tekrar $cumle değişkenine eşitliyoruz. Parçalama işlemi yüzünden $cumle değişkeni array(dizi) oluyor.
-        return $cumle; // $cumle değişkenini fonksiyonun sonucu halini getiriyoruz.
+        return $cumle; 
     }
     $cumle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cumque dolore incidunt expedita nobis reprehenderit sed libero maiores ipsum eius. Laudantium alias omnis, aperiam voluptatem nesciunt deleniti mollitia obcaecati minima?";
-    $dizi = kelime_ayrac($cumle); // yukarıdaki $cumle değişkenini(Lorem ipsum dolar...) yazdığımız fonksiyona parametre olarak gönderiyoruz ve fonksiyonun return ettiği sonuç bizim $deger değişkenimize eşitleniyor.
-    print_r($dizi); // yukarıdaki fonksiyon sonucu array(dizi) olarak döndürdüğünden $dizi değişkenimizin türü array oluyor bu sebeple print_r ile yazdırıyoruz.
+    $dizi = kelime_ayrac($cumle); 
+    print_r($dizi); /
     
     ?>
 
