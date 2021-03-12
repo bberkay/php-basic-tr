@@ -10,7 +10,7 @@
     <h1>Örnek 2 - Select, Option Örneği</h1>
     <hr>
     <?php
-    // ====================SELECT OPTION KONU ANLATIMI==================== //
+    // SELECT OPTION NEDİR //
     // $ogrenciler adında bir dizi oluşturuyoruz ve içine bazı değerler ekliyoruz.
     echo "<select>";
         for($i = 1;$i<=10;$i++){ // 1 den 10 a kadar olan sayıları option a yazdır.
