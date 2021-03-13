@@ -1,5 +1,5 @@
 "# php_basic" 
-https://s7.dosya.tc/server19/c6niwl/php_basic.rar.html - Dosya İndirme Bağlantısı
+https://s5.dosya.tc/server/98nki1/php_basic.rar.html - Dosya İndirme Bağlantısı
 <br>
 <h3>Çalışma Şekli</h3>
 <ol>
