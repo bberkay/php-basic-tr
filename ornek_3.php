@@ -42,7 +42,7 @@
     <h2>Örnek Soru</h2>
     <p>Verilen cümleyi veya paragrafı kelimelere bölen fonksiyon</p>
     <?php
-    function kelime_ayrac($cumle){ /
+    function kelime_ayrac($cumle){ 
         $cumle = explode(" ",$cumle); // parametre olarak gelen $cumle değişkenini boşluklara göre parçalayıp tekrar $cumle değişkenine eşitliyoruz. Parçalama işlemi yüzünden $cumle değişkeni array(dizi) oluyor.
         return $cumle; 
     }
