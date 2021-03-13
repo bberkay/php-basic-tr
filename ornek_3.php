@@ -48,7 +48,7 @@
     }
     $cumle = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt cumque dolore incidunt expedita nobis reprehenderit sed libero maiores ipsum eius. Laudantium alias omnis, aperiam voluptatem nesciunt deleniti mollitia obcaecati minima?";
     $dizi = kelime_ayrac($cumle); 
-    print_r($dizi); /
+    print_r($dizi); 
     
     ?>
 
