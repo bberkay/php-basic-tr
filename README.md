@@ -8,3 +8,5 @@
   <li>ornek_5.php</li>
   <li>ornek_sinav.php & kullanici_bilgileri.php</li>
 </ol>
+
+<p>PHP Crud Rehberi: https://github.com/bberkay/php_crud</p>
