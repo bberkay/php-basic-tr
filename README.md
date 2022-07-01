@@ -1,5 +1,3 @@
-"# php_basic" 
-<br>
 <h3>Çalışma Sırası</h3>
 <ol>
   <li>temel.php</li>
