@@ -6,6 +6,5 @@
   <li>ornek_3.php</li>
   <li>ornek_4.php</li>
   <li>ornek_5.php</li>
-  <li>ornek_sinav.php</li>
-  <li>kullanici_bilgileri.php</li>
+  <li>ornek_sinav.php & kullanici_bilgileri.php</li>
 </ol>
